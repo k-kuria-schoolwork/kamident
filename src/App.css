@@ -1,38 +1,210 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: aliceblue;
+}
+header{
+  background-color: aliceblue;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 40px;
+  margin: 0 auto;
+  height: 90px;
+}
+.logo{
+  width: 120px;
+  margin-top: 8px;
+  font-size: 30px;
+}
+nav .logo{
+  display: none;
+}
+span{
+  color: rgb(0, 47, 255);
+  font-size: 40px;
+
+}
+nav ul{
+   display: flex;
+}
+
+nav ul a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 0 2px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 8px 18px;
+  transition: 0.2s;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+nav ul  a:hover{
+  background-color: rgb(243, 156, 156);
+}
+nav ul a.active{
+  background-color: rgb(243, 156, 156);
+
+}
+.hamburger{
+  display: none;
+  height: fit-content;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.hamburger:hover{
+  background-color: yellow;
+}
+.hamburger div{
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background-color: black;
+}
+.homeimage{
+  width: 100%;
+  height: 80vh;
+}
+.homeh1{
+  color: rgb(3, 3, 3);
+}
+.hometext{
+  color: rgb(0, 0, 0);
+  top: 25%;
+  position: absolute;
+  padding: 8%;
+  left: 23%;
+}
+.hometext h1{
+  font-size: 20px;
+}
+.hometext h2{
+  font-size: 80px;
+  font-weight: lighter;
+}
+.homespan{
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+
+}
+.home2{
+  top: 18%;
+  margin-left: 8%;
+  /* display: flex; */
+  justify-content: center;
+  min-height: 35vh;
+  margin: 120px auto;
+  width: 70%;
+  margin-bottom: 8%;
+}
+.home2 img{
+  max-width: 520px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.hometextbox{
+  color: rgb(0, 0, 0);
+}
+.hometextbox h2{
+  font-size: 42px;
+}
+.hometextbox p{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.625);
+  line-height: 2rem;
+}
+button {
+  margin-top: 3%;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fbd7d7;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(243, 156, 156);
+  box-shadow: 0px 15px 20px rgb(239, 185, 185);
+  color: #000000;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+.card-group{
+  display: flex;
+}
+.card-group img{
+  width: 100%;
+}
+.card1{
+  width: 20%;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+.card2{
+  width: 21%;
+}
+.homeheader{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 35%;
+  position: relative;
+  margin-bottom: 1.5%;
+}
+.homeheader h2{
+  font-size: 35px;
+}
+.homeheader h5{
+  font-size: 18px;
+  color: rgb(241, 106, 106);
+
+}
+.home4{
+  top: 18%;
+  margin-left: 8%;
+  display: flex;
+  justify-content: center;
+  min-height: 65vh;
+  margin: 120px auto;
+  width: 90%;
+}
+.home4img{
+  width: 150%;
+  border-radius: 10px;
+  margin-left: 25px;
+  float: right;
+
 }
 
-.App-link {
-  color: #61dafb;
+.hometextboxy p{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.737);
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
