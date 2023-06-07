@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&display=swap');
 
 *{
   margin: 0;
@@ -205,6 +206,96 @@ button:active {
   color: rgba(0, 0, 0, 0.737);
   margin-top: 20px;
 }
+.servicewrapper{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicewrapper img{
+  height: 40vh;
+  width: 90%;
+filter: brightness(0.5);
+}
+.servicetext{
+  color: rgb(255, 253, 253);
+  top: 15%;
+  position: absolute;
+  text-align: center;
+  padding: 8%;
+  left: 33%;
+  font-family: 'Raleway', sans-serif;
+}
+.servicetext h5{
+  font-size: 18px;
+}
+.servicetext h2{
+  font-size: 50px;
+}
+.servicebody{
+  margin-top: 2%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.servicewraper a{
+    color: black;
+    text-decoration: none;
+    margin: 0 2px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 8px 18px;
+    transition: 0.2s;
+    border-radius: 30px;
+    margin-left: 5px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.servicewraper a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+.servicewraper{
+  margin-top: 2%;
+  display: flex;
+}
+.doctorsbody .card{
+  display: flex;
+}
+.outlet{
+  margin-top: 2%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .home3 {
+      width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .column {
+      width: 50%;
+  }
+}
+@media (min-width: 1025px) {
+  .column {
+      width: 25%;
+  }
+}
 
