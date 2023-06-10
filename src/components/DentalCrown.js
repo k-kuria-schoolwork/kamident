@@ -3,7 +3,7 @@ import React from 'react'
 function DentalCrown() {
   return (
     <div>
-      <h2>i ni maneno ya dental Crown</h2>
+      <h5>We helprestore a decayed, broken, weak or worn down tooth.</h5>
     </div>
   )
 }

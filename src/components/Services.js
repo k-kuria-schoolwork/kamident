@@ -31,7 +31,7 @@ function Services() {
       </div>
       <div className="outlet">
         <Outlet />
-        <button className='servbutton'>Book Apointment</button>
+        {/* <button className='servbutton'>Book Apointment</button> */}
         </div>    
         </div>
   )

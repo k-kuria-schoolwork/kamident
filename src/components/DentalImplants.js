@@ -3,7 +3,7 @@ import React from 'react'
 function DentalImplants() {
   return (
     <div>
-      <h2>dentalimplants</h2>
+      <h5>Surgically placing a screw in your jawbone where they serve as the roots of missing teeth.</h5>
     </div>
   )
 }
