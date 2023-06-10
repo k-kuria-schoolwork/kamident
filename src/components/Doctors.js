@@ -14,40 +14,40 @@ function Doctors() {
 
 
         <div className='doctorsbody'>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
   <div class="col">
     <div class="card">
-      <img src='../images/img1.png'  class="card-img-top" alt="..."/>
+      <img src='../images/doctor2.jpg'  class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h3 class="card-title">Dr.Anne Mutwe</h3>
+        <p class="card-text">DENTAL ASSISTANT</p>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card">
-      <img src='../images/img1.png'  class="card-img-top" alt="..."/>
+      <img src='../images/doctor3.jpg'  class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h3 class="card-title">Dr.Eunice Njoki</h3>
+        <p class="card-text">ORTHODONTIST</p>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card">
-      <img src='../images/img1.png'  class="card-img-top" alt="..."/>
+      <img src='../images/doctor4.jpg'  class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h3 class="card-title">Dr.Jackson Mutwe</h3>
+        <p class="card-text">DENTAL ASSISTANT</p>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card">
-      <img src='../images/img1.png'  class="card-img-top" alt="..."/>
+      <img src='../images/doctor5.jpg'  class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h3 class="card-title">Dr.Keffin Omunyala</h3>
+        <p class="card-text">GENERAL DENTIST</p>
       </div>
     </div>
   </div>

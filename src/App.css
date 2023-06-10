@@ -262,8 +262,16 @@ filter: brightness(0.5);
   margin-top: 2%;
   display: flex;
 }
-.doctorsbody .card{
-  display: flex;
+.col{
+  margin-left:13%;  
+margin-top: 5%;
+align-items: center;
+  justify-content: center;
+}
+ .card{
+  width: 80%;
+
+  border: none;
 }
 .outlet{
   margin-top: 2%;
@@ -271,7 +279,9 @@ filter: brightness(0.5);
   /* align-items: center; */
   justify-content: center;
 }
-
+.servbutton{
+  
+}
 
 
 

@@ -21,11 +21,11 @@ function Services() {
 
       <div className='servicebody'>
         <ul className='servicewraper'>
+        <Link style={{navLinkStyles}} to='services/dentalcrown'>Dental Crown</Link>
         <Link style={{navLinkStyles}} to='services/toothextraction'>Tooth Extraction</Link>
         <Link style={{navLinkStyles} }to='services/metalbraces'>Metal Braces</Link>
         <Link style={{navLinkStyles}} to='services/teethwhitening'>Teeth Whitening</Link>
         <Link style={{navLinkStyles}} to='services/dentalimplants'>Dental Implants</Link>
-        <Link style={{navLinkStyles}} to='services/dentalcrown'>Dental Crown</Link>
         <Link style={{navLinkStyles}}to='services/dentalcare'>Dental Care</Link>
         </ul>
       </div>
