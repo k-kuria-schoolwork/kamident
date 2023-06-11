@@ -3,7 +3,8 @@ import React from 'react'
 function DentalCare() {
   return (
     <div>
-      <h2>dentalcare</h2>
+            <img className='serviceimg' src='' alt='bracesimage'></img>
+      <h5 className='serviceh5'>dentalcare</h5>
     </div>
   )
 }

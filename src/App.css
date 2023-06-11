@@ -243,8 +243,10 @@ filter: brightness(0.5);
   list-style: none;
 }
 .servicewraper a{
-    color: black;
-    text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: #000000;   
+   text-decoration: none;
     margin: 0 2px;
     font-weight: bolder;
     font-size: 20px;
@@ -255,10 +257,29 @@ filter: brightness(0.5);
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
-.servicewraper a:hover{
-  text-decoration: underline;
-  color: blue;
+
+.servicewraper a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(243, 156, 156);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
+
+.servicewraper a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+
 .servicewraper{
   margin-top: 2%;
   display: flex;
@@ -280,9 +301,48 @@ align-items: center;
   /* align-items: center; */
   justify-content: center;
 }
-.servbutton{
-  
+.serviceimg{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 3%;
+  left: 40%;
+  width: 25%;
 }
+.servicehead{
+  margin-top: 5%;
+}
+.servicehead h3{
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  position: relative;
+  margin-left: 46%;
+}
+.servicehead h5{
+  position: relative;
+  margin-left: 15%;
+}
+.dentalimplant img{
+  width: 50%;
+  position: relative;
+  left: 30%;
+}
+.teethwhitening img{
+  height: 50%;
+}
+.servicebtn{
+  position: absolute;
+  top: 105%;
+  left: 44%;
+}
+.servicebody2{
+  background-color: rgba(244, 227, 227, 0.391);
+  margin-top: 10%;
+  padding-bottom: 1px;
+  padding-top: 1%;
+}
+
+
 
 
 
