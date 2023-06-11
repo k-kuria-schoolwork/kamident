@@ -41,7 +41,7 @@ nav ul{
 nav ul a{
   color: black;
   text-decoration: none;
-  display: block;
+  display: flex;
   margin: 0 2px;
   font-weight: 600;
   font-size: 20px;
@@ -331,9 +331,10 @@ align-items: center;
   height: 50%;
 }
 .servicebtn{
-  position: absolute;
+  position: relative;
   top: 105%;
-  left: 44%;
+  margin-left: 43%
+  ;
 }
 .servicebody2{
   background-color: rgba(244, 227, 227, 0.391);
@@ -341,24 +342,68 @@ align-items: center;
   padding-bottom: 1px;
   padding-top: 1%;
 }
+.servicebody3{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+.servicebody3 .column{
+  flex: 0 0 auto;
+  width: 40%;
+}
+.servicebody3 img{
+  width: 120%;
+  background-position: center;
+}
+
+.dropdown{
+  margin-bottom: 7%;
+}
+.dropdown a{
+  color: black;
+}
+.dropdown-menu{
+  background-color: #f6e9e9;
+  border: none;
+  width: 74%;
+}
 
 
+@media (max-width: 850px) {
+  .servicebody3 {
+      flex-flow: row wrap;
+  }
+  .servicebody3 img{
+    display: block;
+    order: 1;
+    width: 180%;
+    height: 200px;
+  }
+  .servicebody3 .content{
+    display: block;
+    order: 2;
+    width: 100%;
 
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 767px) {
-  .home3 {
-      width: 100%;
+  }
+  nav {
+    display: block;
+    order: 1; 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .column {
       width: 50%;

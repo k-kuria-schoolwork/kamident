@@ -42,14 +42,93 @@ function Services() {
 
           <div className='servicebody2'>
             <div className='home2'>
-            <img src='https://sandimassedation.com/wp-content/uploads/cosmetic-dentist-2003.jpg' alt='home2'></img>
+            <img src='https://vimakdentalcentre.co.ke/uploads/service_cover_images/Pido.jpg' alt='home2'></img>
             <div className='hometextbox'>
             <h2>The Best Technique Immediate & Effecient Result</h2>
-            <p>We will probably instruct and teach the exceptionally imperative estimation of oral wellbeing and what every single patient can do to keep his or her teeth solid during their lifetime. We are committed to offering our patients great dentistry in a minding and delicate way.</p>
+            <p>We offer a total scope of dental and cleanliness medications, perfomed by talented and energetic experts in our medical procedure.Our motivation is to separate ourselves as a medical procedure that gives dentistry of the extremely most austanding quality that upgrades our patient's lives.</p>
             <button  onClick={() => navigate('About')}>Read More...</button>
             </div>
         </div>
-            </div>  
+            </div> 
+
+            <div className='servicebody3'>
+              <div className='column content'>
+                <div className='contentcontainer'>
+                  <h2>Common Questions Asked</h2>
+
+                  
+                  <div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Do the implanted teeth look natural?
+  </a>
+
+  <ul class="dropdown-menu">
+  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    What is the duration of dental implants operation?
+  </a>
+
+  <ul class="dropdown-menu">
+  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    How should dental care be after the operation?
+  </a>
+
+  <ul class="dropdown-menu">
+  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    When and how to brush my teeth?
+  </a>
+
+  <ul class="dropdown-menu">
+  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    How to keep my teeth healthy?
+  </a>
+
+  <ul class="dropdown-menu">
+  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  </ul>
+</div>
+
+<div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    What toothpaste do you recommend?
+  </a>
+
+  <ul class="dropdown-menu">
+  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  </ul>
+</div>
+                  
+ 
+
+                 
+
+                </div>
+              </div>
+
+              <div className='column image'>
+                <img src='https://img.freepik.com/premium-photo/young-confident-dentist-giving-consultation-young-african-woman-with-son_274679-32010.jpg?w=2000' alt='columnimage'></img>
+              </div>
+              </div> 
+
         </div>
   )
 }

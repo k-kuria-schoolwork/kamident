@@ -19,7 +19,7 @@ function Home() {
             <img src='https://sandimassedation.com/wp-content/uploads/cosmetic-dentist-2003.jpg' alt='home2'></img>
             <div className='hometextbox'>
             <h2>We Care For Your Dental Health</h2>
-            <p>We will probably instruct and teach the exceptionally imperative estimation of oral wellbeing and what every single patient can do to keep his or her teeth solid during their lifetime. We are committed to offering our patients great dentistry in a minding and delicate way.</p>
+            <p>We will instruct and teach the exceptionally imperative estimation of oral wellbeing and what every single patient can do to keep his or her teeth solid during their lifetime. We are committed to offering our patients great dentistry in a minding and delicate way.</p>
             <button  onClick={() => navigate('About')}>Read More...</button>
             </div>
         </div>
@@ -37,7 +37,6 @@ function Home() {
     <div class="card-body">
       <h2 class="card-title">Teeth whitening</h2>
       <p class="card-text">We offer a very effective way of lightening the natural colour of your teeth without removing  .</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card1">
@@ -45,7 +44,6 @@ function Home() {
     <div class="card-body">
       <h2 class="card-title">Teeth extraction</h2>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card2">
@@ -53,7 +51,6 @@ function Home() {
     <div class="card-body">
       <h2 class="card-title">Implant braces</h2>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
     </div>
   </div>
 </div>
