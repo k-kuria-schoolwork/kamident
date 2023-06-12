@@ -12,6 +12,7 @@ import TeethWhitening from './components/TeethWhitening';
 import ToothExtraction from './components/ToothExtraction';
 import Doctors from './components/Doctors';
 import DentalCrown from './components/DentalCrown';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -27,14 +28,12 @@ function App() {
             <Route path='services/teethwhitening' element={<TeethWhitening />}></Route>
             <Route path='services/toothextraction' element={<ToothExtraction />}></Route>
             <Route path='services/dentalcrown' element={<DentalCrown />}></Route>
-
         </Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/doctors' element={<Doctors />}></Route>
-
-
       </Routes>
+      <Footer />
     </div>
   );
 }
