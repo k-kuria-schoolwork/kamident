@@ -22,6 +22,9 @@ function NavBar() {
                         <Link to='/doctors'>Doctors</Link>
                  
                         <Link to='/blog'>Blog</Link>
+
+                        <Link className='active2' to='/services/appointmentbooking'>Book Appointment</Link>
+
                 </ul>
             </nav>
             <label for="nav_check" className='hamburger'>
@@ -29,6 +32,7 @@ function NavBar() {
                 <div></div>
                 <div></div>
             </label>
+            
         </header>
     </div>
   )

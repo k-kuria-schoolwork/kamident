@@ -10,7 +10,7 @@ function Blog() {
           <div className='contentcontainer'>
 
           <section>
-          <h5>Book with us today</h5>
+          <h5>Make an Appointment</h5>
 
             <form id="consultation-form" class="feed-form" action="#">
               <input required="" placeholder="Name" type="text"/>
@@ -23,9 +23,7 @@ function Blog() {
 
           </div>
         </div>
-        <div className='column image'>
-                <img src='https://img.freepik.com/premium-photo/young-confident-dentist-giving-consultation-young-african-woman-with-son_274679-32010.jpg?w=2000' alt='columnimage'></img>
-           </div>
+        
       </div>
       
 

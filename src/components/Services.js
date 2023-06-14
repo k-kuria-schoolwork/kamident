@@ -37,7 +37,9 @@ function Services() {
         </div> 
 
         <div className='servicebtn'>
-          <button>Book Appointment</button>
+          <button >
+          <Link to='appointmentbooking'>Book Apointment</Link>
+            </button>
           </div> 
 
           <div className='servicebody2'>
@@ -46,7 +48,7 @@ function Services() {
             <div className='hometextbox'>
             <h2>The Best Technique Immediate & Effecient Result</h2>
             <p>We offer a total scope of dental and cleanliness medications, perfomed by talented and energetic experts in our medical procedure.Our motivation is to separate ourselves as a medical procedure that gives dentistry of the extremely most austanding quality that upgrades our patient's lives.</p>
-            <button  onClick={() => navigate('About')}>Read More...</button>
+            <button >Read More...</button>
             </div>
         </div>
             </div> 

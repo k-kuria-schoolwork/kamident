@@ -13,6 +13,7 @@ import ToothExtraction from './components/ToothExtraction';
 import Doctors from './components/Doctors';
 import DentalCrown from './components/DentalCrown';
 import Footer from './components/Footer';
+import BookAppointment from './components/BookAppointment';
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/doctors' element={<Doctors />}></Route>
+        <Route path='services/appointmentbooking' element={<BookAppointment />}></Route>
+
       </Routes>
       <Footer />
     </div>

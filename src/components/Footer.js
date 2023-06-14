@@ -7,26 +7,18 @@ function Footer() {
         <div className='sb_footer-links'>
 
             <div className='sb_footer-links'>
-            <div className='socialmedia'>
-                    <p className='mambokubwa'><i class="fa-brands fa-instagram"><h7 >kamdident</h7></i></p>
-                             
+            <div className='socalmedia'>
             </div>           
                  </div>
             <div className='sb_footer-link_div'>
-            <h6>mambooo flani...1</h6>
-            <a href='/employer'>
-                <p>Employer</p>
-            </a>
-            <a href='/healthplan'>
-                <p>Health Plan</p>
-            </a> <a href='/individual'>
-                <p>Individual</p>
-            </a>
+            <p className='mambokubwa'><h7>Kamident Dental</h7></p>             
+                <h5>Your best life begines with a SMILE.</h5>
+                <h3>+254 706 262 436</h3>
             </div>
 
             <div>
       <div className='sb_footer-link_div'>
-            <h6>mambooo flani...2</h6>
+            <h6>Quick links</h6>
             <a href='/resources'>
                 <p>Resources</p>
             </a>
@@ -39,7 +31,7 @@ function Footer() {
       </div>
       
         <div className='sb_footer-link_div'>
-            <h6>mambooo flani...3</h6>
+            <h6>Working Hours</h6>
             <a href='/employer'>
                 <p>Swing Tech</p>
             </a>
@@ -53,7 +45,7 @@ function Footer() {
 
 
         <div className='sb_footer-link_div'>
-            <h6>mambooo flani...3</h6>
+            <h6>Contact Us</h6>
                 <div className='socialmedia'>
                     <p><i class="fa-brands fa-instagram"><h7>kamdident</h7></i></p>
                     <p><i class="fa-brands fa-twitter"><h7>kamdident</h7></i></p>

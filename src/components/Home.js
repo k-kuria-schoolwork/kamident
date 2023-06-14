@@ -20,7 +20,7 @@ function Home() {
             <div className='hometextbox'>
             <h2>We Care For Your Dental Health</h2>
             <p>We will instruct and teach the exceptionally imperative estimation of oral wellbeing and what every single patient can do to keep his or her teeth solid during their lifetime. We are committed to offering our patients great dentistry in a minding and delicate way.</p>
-            <button  onClick={() => navigate('About')}>Read More...</button>
+            <button  onClick={() => navigate('Blog')}>Read More...</button>
             </div>
         </div>
 
@@ -65,6 +65,9 @@ function Home() {
               We’re here to care for you and your entire family. Regular visits to the doctor will depend on your age and general health!</p>    
             </div>
         </div>
+
+
+        
     </div>
   )
 }
