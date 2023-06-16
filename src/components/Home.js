@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Home() {
     const navigate = useNavigate()
   return (
-    <div className='bigdaddycont'>
+    <div >
       
         <div>
         <img className='homeimage' src='https://www.findlaw.com/injury/medical-malpractice/can-i-sue-my-dentist/_jcr_content/pg/articleHeading/imageInLine.coreimg.jpeg/1589569975382.jpeg' alt='homeforo'></img>
@@ -36,21 +36,21 @@ function Home() {
     <img src="https://media.istockphoto.com/id/1186140156/photo/girl-receiving-dental-care.jpg?s=612x612&w=0&k=20&c=Tf_24tfMh8Y4sDTUsmVq9hBtzXee2qjICBbpy0XGIqg=" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h2 class="card-title">Teeth whitening</h2>
-      <p class="card-text">We offer a very effective way of lightening the natural colour of your teeth without removing  .</p>
+      <p class="card-text">.</p>
     </div>
   </div>
   <div class="card1">
     <img src="https://hendforddentalpractice.co.uk/wp-content/uploads/2020/05/AdobeStock_265678112-scaled.jpeg" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h2 class="card-title">Teeth extraction</h2>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"></p>
     </div>
   </div>
   <div class="card2">
     <img src="https://www.webb-orthodontics.com/wp-content/uploads/2021/10/Difference-Between-a-Dentist-and-an-Orthodontist-in-Charlotte.jpg" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h2 class="card-title">Implant braces</h2>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"></p>
     </div>
   </div>
 </div>

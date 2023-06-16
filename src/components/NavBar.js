@@ -7,7 +7,7 @@ function NavBar() {
     <div>
         <header>
             <div className='logo'>
-                <h2>Kamident </h2>
+                <i><h2>Kamident Dental</h2></i>
             </div>
             <input type='checkbox' className='nav_check' hidden></input>
             <nav>
@@ -21,8 +21,6 @@ function NavBar() {
                   
                         <Link to='/doctors'>Doctors</Link>
                  
-                        <Link to='/blog'>Blog</Link>
-
                         <Link className='active2' to='/services/appointmentbooking'>Book Appointment</Link>
 
                 </ul>

@@ -14,9 +14,32 @@ import Doctors from './components/Doctors';
 import DentalCrown from './components/DentalCrown';
 import Footer from './components/Footer';
 import BookAppointment from './components/BookAppointment';
-
+import DoctorDetails from './components/DoctorDetails';
 
 function App() {
+
+
+  const data = [
+    {
+      title: "doctor1",
+      description: "This is the first doctor"
+    },
+    {
+      title: "doctor2",
+      description: "This is the second doctor"
+    },
+    {
+      title: "doctor3",
+      description: "This is the third doctor"
+    },
+    {
+      title: "doctor3",
+      description: "This is the fourth doctor"
+    },
+
+  ]
+
+
   return (
     <div className="App">
       <NavBar />
@@ -32,7 +55,10 @@ function App() {
         </Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route path='/doctors' element={<Doctors />}></Route>
+        <Route   path='/doctors' element={<Doctors />}>
+        </Route>
+        <Route  path='/doctors/:userId' element={<DoctorDetails />}></Route>
+
         <Route path='services/appointmentbooking' element={<BookAppointment />}></Route>
 
       </Routes>

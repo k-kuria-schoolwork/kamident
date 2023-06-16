@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link, Outlet } from 'react-router-dom'
 
-function Doctors() {
+function Doctors({data}) {
   return (
     <div>
       <div className='bigdaddycont'>
@@ -16,11 +17,12 @@ function Doctors() {
         <div className='doctorsbody'>
         <div class="row row-cols-1 row-cols-md-3 g-3">
   <div class="col">
-    <div class="card">
+    <div data={data} class="card">
       <img src='../images/doctor2.jpg'  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h3 class="card-title">Dr.Anne Mutwe</h3>
         <p class="card-text">DENTAL ASSISTANT</p>
+        <Link to='/doctors/:userId'>View more</Link>
       </div>
     </div>
   </div>
@@ -30,6 +32,7 @@ function Doctors() {
       <div class="card-body">
         <h3 class="card-title">Dr.Eunice Njoki</h3>
         <p class="card-text">ORTHODONTIST</p>
+        <Link to='/doctors/:userId'>View more</Link>
       </div>
     </div>
   </div>
@@ -39,6 +42,7 @@ function Doctors() {
       <div class="card-body">
         <h3 class="card-title">Dr.Jackson Mutwe</h3>
         <p class="card-text">DENTAL ASSISTANT</p>
+        <Link to='/doctors/:userId'>View more</Link>
       </div>
     </div>
   </div>
@@ -48,6 +52,7 @@ function Doctors() {
       <div class="card-body">
         <h3 class="card-title">Dr.Keffin Omunyala</h3>
         <p class="card-text">GENERAL DENTIST</p>
+        <Link to='/doctors/:userId'>View more</Link>
       </div>
     </div>
   </div>

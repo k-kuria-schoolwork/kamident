@@ -11,42 +11,43 @@ function Footer() {
             </div>           
                  </div>
             <div className='sb_footer-link_div'>
-            <p className='mambokubwa'><h7>Kamident Dental</h7></p>             
-                <h5>Your best life begines with a SMILE.</h5>
+            <i><h7 className='mambokubwa'>Kamident Dental</h7></i>            
+                <h5>Your best life begines with a <span className='footspan'>SMILE</span>.</h5>
                 <h3>+254 706 262 436</h3>
+                <div className='socialmedia'>
+                    <p><i class="fa-brands fa-instagram"></i></p>
+                    <p><i class="fa-brands fa-twitter"></i></p>
+                    <p><i class="fa-brands fa-facebook"></i></p>
+                </div>
             </div>
 
             <div>
       <div className='sb_footer-link_div'>
             <h6>Quick links</h6>
-            <a href='/resources'>
-                <p>Resources</p>
+            <a href='/'>
+                <p>Home</p>
             </a>
-            <a href='/resources'>
-                <p>Testimonials</p>
-            </a> <a href='/resources'>
-                <p>STV</p>
+            <a href='/services'>
+                <p>Services</p>
+            </a> <a href='/doctors'>
+                <p>Doctors</p>
             </a>
             </div>
       </div>
       
         <div className='sb_footer-link_div'>
             <h6>Working Hours</h6>
-            <a href='/employer'>
-                <p>Swing Tech</p>
-            </a>
-            <a href='/healthplan'>
-                <p>Health Plan</p>
-            </a> <a href='/individual'>
-                <p>Individual</p>
-            </a>
+                <p>Mon - Fri: 8am - 6pm</p>
+                <p>Saturday: 8am - 5pm</p>
+                <p>Sunday: closed</p>
         </div>
 
 
 
         <div className='sb_footer-link_div'>
             <h6>Contact Us</h6>
-                <div className='socialmedia'>
+
+                <div className='socialmediaa'>
                     <p><i class="fa-brands fa-instagram"><h7>kamdident</h7></i></p>
                     <p><i class="fa-brands fa-twitter"><h7>kamdident</h7></i></p>
                     <p><i class="fa-brands fa-facebook"><h7>kamdident</h7></i></p>
@@ -57,7 +58,7 @@ function Footer() {
     
         <div className='sb_footer-below'>
             <div className='sb_footer-copyright'>
-                <p>CodeInn. All rights reserved</p>
+                <p>copyright <span className='footspan'>Kamident Dental</span>. All rights reserved</p>
             </div>
 
         </div>

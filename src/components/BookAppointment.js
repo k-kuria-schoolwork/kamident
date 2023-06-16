@@ -1,10 +1,28 @@
-import React from 'react'
+import React,{useRef} from 'react'
+import emailjs from '@emailjs/browser';
 
 function BookAppointment() {
+const form = useRef()
+
+const sendEmail = (e) => {
+  e.preventDefault()
+
+  emailjs.sendForm('service_fx02hl6', 'template_rs0rjis', form.current, 'QHjfvohYmK-wX_pdK')
+  .then((result) => {
+      console.log(result.text);
+      alert("watagwan")
+  }, (error) => {
+      console.log(error.text);
+      alert("weee msee rada kwani")
+
+  });
+   e.target.reset()
+}
+
+
+
   return (
     <div className='bigdaddycont'>
-
-
     <div className='servicebody3'>
       <div className='column content'>
         <div className='contentcontainer'>
@@ -12,12 +30,13 @@ function BookAppointment() {
         <section>
         <h5>Book with us today</h5>
 
-          <form id="consultation-form" class="feed-form" action="#">
-            <input required="" placeholder="Name" type="text"/>
-            <input name="phone" required="" placeholder="Phone number"/>
-            <input name="data" id="data" type="date" class="infos"/>
-            <textarea placeholder="Your message"></textarea>
-            <button class="button_submit">Book Appointment</button>
+          <form ref={form} onSubmit ={sendEmail} id="consultation-form" class="feed-form" action="#">
+            <input name="user_name" required="" placeholder="Name" type="text"/>
+            <input name="user_phone" required="" placeholder="Phone number"/>
+            <input name="user_email" required="" placeholder="Email" type="email"/>
+            <input name="date" id="data" type="date" class="infos"/>
+            <textarea name='message' placeholder="Your message"></textarea>
+            <button type='submit' value="send" class="button_submit">Book Appointment</button>
           </form>
         </section>
 
