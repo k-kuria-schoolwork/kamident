@@ -214,6 +214,11 @@ button:active {
   color: rgb(241, 106, 106);
 
 }
+.home3{
+  background-color: rgb(244, 227, 227);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .home4{
   top: 18%;
   margin-left: 8%;
@@ -226,7 +231,6 @@ button:active {
 .home4img{
   width: 150%;
   border-radius: 10px;
-  margin-left: 25px;
   float: right;
 
 }
@@ -330,6 +334,10 @@ align-items: center;
   /* align-items: center; */
   justify-content: center;
 }
+.outlet h5{
+  margin-left: 25%;
+  margin-right: 10%;
+}
 .serviceimg{
   align-items: center;
   justify-content: center;
@@ -347,10 +355,8 @@ align-items: center;
   position: relative;
   margin-left: 46%;
 }
-.servicehead h5{
-  position: relative;
-  margin-left: 15%;
-}
+
+
 .dentalimplant img{
   width: 50%;
   position: relative;
@@ -523,11 +529,74 @@ align-items: center;
   padding: 8px 14px;
   border: 1px solid rgb(219, 213, 213);
 }
+.detailscontainer img{
+  width: 50%;
+}
+.detailscontainer{
+  justify-content: center;
+  align-items: center;
+}
+.detailsdoc{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 28%;
+}
+.detailsdoc h5{
+  margin-left: 15%;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.detailsdoc h6{
+  margin-left: 23%;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.details{
+  display: flex;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+.detailsdiv{
+  width: 20%;
+}
+.detailsdiv h6{
+  font-weight: 600;
+  font-size: 20px;
+}
+.biography{
+  margin-left: 30%;
+  margin-top: 2%;
+}
+.biography h5{
+  width: 50%;
+}
+.biography h3{
+ font-weight: 600;
+}
+.servicebtn2{
+  position: relative;
+  top: 105%;
+}
+.servicebtn2 a{
+  text-decoration: none;
+  color: black;
+}
 
 
 
 
-@media (max-width: 1129px) {
+
+
+
+
+/* Hover effect for screens larger than 1024px */
+@media (max-width: 1024px) {
   .servicebody3 {
       flex-flow: row wrap;
   }
@@ -561,7 +630,8 @@ align-items: center;
    
 }
 
-@media  screen and (max-width: 450px) and (max-width: 1124px) {
+/* Hover effect for screens between 601px  1024*/
+@media  screen and (min-width: 601px) and (max-width: 1024px) {
   .servicetext{
     justify-content: center;
     text-align: center;
@@ -573,12 +643,11 @@ align-items: center;
     color: rgb(242, 92, 92);
     box-shadow: 0px 2px 1px rgb(0, 0, 0);
   }
-  
 }
 
 
-
-@media  screen and (max-width: 450px) {
+/* Hover effect for screens smaller than 600px */
+@media  screen and (max-width: 600px) {
   .sb_footer-links div{
     margin: 1rem 0;
   }
@@ -640,6 +709,29 @@ align-items: center;
   }
   .card-group img{
     width: 120%;
+  }
+  .servicewrapper img{
+    width: 200%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .servicehead h3{
+    font-size: 18px;
+    margin-left: 38%;
+  }
+  .servicehead h5{
+    font-size: 13px;
+  }
+  .serviceimg{
+    width: 40%;
+    left: 35%;
+  }
+  .detailsdoc h5{
+    font-size: 20px;
+  }
+  .detailscontainer img{
+    width: 130%;
   }
 }
 

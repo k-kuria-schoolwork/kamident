@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
+import doctors from '../data'
 
-function Doctors({data}) {
+function Doctors() {
   return (
     <div>
       <div className='bigdaddycont'>
@@ -12,53 +13,30 @@ function Doctors({data}) {
      </div>
       </div>
 
-
-
         <div className='doctorsbody'>
-        <div class="row row-cols-1 row-cols-md-3 g-3">
-  <div class="col">
-    <div data={data} class="card">
-      <img src='../images/doctor2.jpg'  class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h3 class="card-title">Dr.Anne Mutwe</h3>
-        <p class="card-text">DENTAL ASSISTANT</p>
-        <Link to='/doctors/:userId'>View more</Link>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src='../images/doctor3.jpg'  class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h3 class="card-title">Dr.Eunice Njoki</h3>
-        <p class="card-text">ORTHODONTIST</p>
-        <Link to='/doctors/:userId'>View more</Link>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src='../images/doctor4.jpg'  class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h3 class="card-title">Dr.Jackson Mutwe</h3>
-        <p class="card-text">DENTAL ASSISTANT</p>
-        <Link to='/doctors/:userId'>View more</Link>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src='../images/doctor5.jpg'  class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h3 class="card-title">Dr.Keffin Omunyala</h3>
-        <p class="card-text">GENERAL DENTIST</p>
-        <Link to='/doctors/:userId'>View more</Link>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="row row-cols-1 row-cols-md-3 g-3" >
+
+          {doctors.map((doctor) =>{
+            return(
+              <div class="col" key={doctor.id}>
+              <div  class="card">
+                <img   class="card-img-top" src={doctor.image} alt="..."/>
+                <div class="card-body">
+                  <h3 class="card-title">{doctor.title}</h3>
+                  <p class="card-text">{doctor.description}</p>
+                  <button className='servicebtn2'><Link to={`/doctors/${doctor.id}`}>View more</Link></button>
+                </div>
+              </div>
+            </div>
+
+            )
+          })
+
+          }
+
         </div>
-             
+        </div>
+
         </div>
     </div>
   )
