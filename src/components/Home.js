@@ -5,7 +5,6 @@ function Home() {
     const navigate = useNavigate()
   return (
     <div >
-      
         <div>
         <img className='homeimage' src='https://www.findlaw.com/injury/medical-malpractice/can-i-sue-my-dentist/_jcr_content/pg/articleHeading/imageInLine.coreimg.jpeg/1589569975382.jpeg' alt='homeforo'></img>
           <div className='hometext'>
@@ -46,6 +45,14 @@ function Home() {
       <p class="card-text"></p>
     </div>
   </div>
+  <div class="card1">
+    <img src="https://hendforddentalpractice.co.uk/wp-content/uploads/2020/05/AdobeStock_265678112-scaled.jpeg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h2 class="card-title">Teeth extraction</h2>
+      <p class="card-text"></p>
+    </div>
+  </div>
+  
   <div class="card2">
     <img src="https://www.webb-orthodontics.com/wp-content/uploads/2021/10/Difference-Between-a-Dentist-and-an-Orthodontist-in-Charlotte.jpg" class="card-img-top" alt="..."/>
     <div class="card-body">

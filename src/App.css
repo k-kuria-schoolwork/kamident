@@ -235,11 +235,11 @@ button:active {
 }
 .home5wrapper{
   display: flex;
-
 }
 .home5 .card{
   width: 20%;
   margin-left: 3%;
+  background-color: yellow;
 }
 .home5 h2{
   align-items: center;
@@ -674,7 +674,14 @@ align-items: center;
   .sb_footer-links{
     margin-left: 50%;
   }
-  
+  .home5wrapper{
+    display: block;
+  }
+  .home5 .card{
+    width: 100%;
+    margin-top: 3%;
+    background-color: yellow;
+  }
   .sb_footer-below{
     flex-direction: column;
     justify-content: left;
