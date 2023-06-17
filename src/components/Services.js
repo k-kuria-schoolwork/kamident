@@ -57,7 +57,7 @@ function Services() {
 
                   
                   <div class="dropdown">
-  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Do the implanted teeth look natural?
   </a>
 
@@ -67,7 +67,7 @@ function Services() {
 </div>
 
 <div class="dropdown">
-  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     What is the duration of dental implants operation?
   </a>
 
@@ -77,7 +77,7 @@ function Services() {
 </div>
 
 <div class="dropdown">
-  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     How should dental care be after the operation?
   </a>
 
@@ -87,7 +87,7 @@ function Services() {
 </div>
 
 <div class="dropdown">
-  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     When and how to brush my teeth?
   </a>
 
@@ -97,7 +97,7 @@ function Services() {
 </div>
 
 <div class="dropdown">
-  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     How to keep my teeth healthy?
   </a>
 
@@ -107,7 +107,7 @@ function Services() {
 </div>
 
 <div class="dropdown">
-  <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a class="btn btn-outline-secondary dropdown-toggle" href="#dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     What toothpaste do you recommend?
   </a>
 
