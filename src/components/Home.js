@@ -67,6 +67,49 @@ function Home() {
         </div>
 
 
+      <div className='home5'>
+        <h2>Testimonials</h2>
+        <div className='home5wrapper'>
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">Halima </h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">project manager</h6>
+            <p class="card-text">My first time in this clinic and the services were exemplary ,i highly recommend anyone in search of a dental clinic.. </p>
+            
+          </div>
+        </div>
+
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">kevin Gitonga</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Enterprenuer</h6>
+            <p class="card-text">The receptionist was so welcoming,the services were professional and the prices were fair.How can you not love it there. </p>
+          </div>
+        </div>
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">Bunny kanosh</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Fashion designer</h6>
+            <p class="card-text">Shout out to my bwoy ya diig.The doctor gold platted me some dope shit.Thats wozzap</p>
+           
+          </div>
+        </div>
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">Barbie Doll</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Spicey Wifey</h6>
+            <p class="card-text">Heyyy guuurl.I got some shiny dimy on my teeth.PS i also got some braces.ahaaa.You thought i was feeling you. </p>
+            
+          </div>
+        </div>
+        </div>
+
+
+
+
+
+      </div>
+
         
     </div>
   )

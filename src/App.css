@@ -77,8 +77,8 @@ nav ul a.active:hover{
   color: rgb(0, 0, 0);
 }
 nav ul a.active2{
-  background-color: rgb(249, 157, 157);
-  color: #4B4B4B;
+  background-color: rgb(248, 189, 189);
+  color: #2e2c2c;
 }
 nav ul a.active2:hover{
   background-color: rgb(243, 156, 156);
@@ -232,7 +232,20 @@ button:active {
   width: 150%;
   border-radius: 10px;
   float: right;
+}
+.home5wrapper{
+  display: flex;
 
+}
+.home5 .card{
+  width: 20%;
+  margin-left: 3%;
+}
+.home5 h2{
+  align-items: center;
+  margin-left: 43%;
+  font-weight: 600;
+  margin-bottom: 1%;
 }
 
 .hometextboxy p{
@@ -348,12 +361,14 @@ align-items: center;
 }
 .servicehead{
   margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
 }
 .servicehead h3{
   color: rgb(0, 0, 0);
   font-weight: bolder;
   position: relative;
-  margin-left: 46%;
+  margin-left: 44%;
 }
 
 
@@ -405,6 +420,9 @@ align-items: center;
   background-color: #f6e9e9;
   border: none;
   width: 74%;
+  padding-left: 10px;
+  border-radius: 20px;
+  padding-right: 10px;
 }
 .footer{
   margin-top: 5%;
@@ -422,6 +440,7 @@ align-items: center;
   align-items: center;
 }
 .sb_footer-links{
+  background-color: rgba(243, 225, 225, 0.878);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -441,6 +460,7 @@ align-items: center;
 }
 .sb_footer-link_div a {
   color:maroon;
+  font-weight: 600;
   text-decoration: none;
 }
 .sb_footer-link_div a:hover {
@@ -651,6 +671,10 @@ align-items: center;
   .sb_footer-links div{
     margin: 1rem 0;
   }
+  .sb_footer-links{
+    margin-left: 50%;
+  }
+  
   .sb_footer-below{
     flex-direction: column;
     justify-content: left;

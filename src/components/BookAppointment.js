@@ -10,10 +10,10 @@ const sendEmail = (e) => {
   emailjs.sendForm('service_fx02hl6', 'template_rs0rjis', form.current, 'QHjfvohYmK-wX_pdK')
   .then((result) => {
       console.log(result.text);
-      alert("watagwan")
+      alert("Appointment booked successfully!")
   }, (error) => {
       console.log(error.text);
-      alert("weee msee rada kwani")
+      alert("Oops!Something went wrong!")
 
   });
    e.target.reset()
@@ -43,7 +43,7 @@ const sendEmail = (e) => {
         </div>
       </div>
       <div className='column image'>
-              <img src='https://img.freepik.com/premium-photo/young-confident-dentist-giving-consultation-young-african-woman-with-son_274679-32010.jpg?w=2000' alt='columnimage'></img>
+              <img src='https://blackhealthmatters.com/wp-content/uploads/2023/05/Addressing-Racial-Disparities-in-Dental-Care-for-African-Americans.jpg' alt='columnimage'></img>
          </div>
     </div>
     

@@ -62,7 +62,7 @@ function Services() {
   </a>
 
   <ul class="dropdown-menu">
-  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  <p>Dental implants are designed to look and feel just like your natural teeth. And when compared to other restorative options for missing teeth (i.e., bridges), dental implants are hands-down the most natural-looking option.</p>
   </ul>
 </div>
 
@@ -72,7 +72,7 @@ function Services() {
   </a>
 
   <ul class="dropdown-menu">
-  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  <p>The Dental Implant process is basically a three phase process, which can be different for each person. Typically the entire process takes from 5 to 8 months.</p>
   </ul>
 </div>
 
@@ -82,7 +82,7 @@ function Services() {
   </a>
 
   <ul class="dropdown-menu">
-  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  <p>Starting 24 hours after your tooth was pulled, gently rinse your mouth with warm salt water several times a day to reduce swelling and relieve pain. </p>
   </ul>
 </div>
 
@@ -92,7 +92,7 @@ function Services() {
   </a>
 
   <ul class="dropdown-menu">
-  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  <p>Brushing twice a day is recommended as a minimum. Brush before breakfast, not afterwards to prevent tooth erosion. Brush your teeth for at least 2 minutes each time.</p>
   </ul>
 </div>
 
@@ -102,7 +102,7 @@ function Services() {
   </a>
 
   <ul class="dropdown-menu">
-  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  <p>Brush your teeth twice a day with fluoride toothpaste. Floss regularly. Visit your dentist routinely for a checkup and cleaning.</p>
   </ul>
 </div>
 
@@ -112,7 +112,7 @@ function Services() {
   </a>
 
   <ul class="dropdown-menu">
-  <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+  <p>One of the more common types of toothpaste is fluoride toothpaste. Because fluoride strengthens your teeth and prevents decay, dentists recommend it for children and adults. </p>
   </ul>
 </div>
                   

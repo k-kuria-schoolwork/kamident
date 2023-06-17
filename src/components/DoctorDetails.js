@@ -46,7 +46,7 @@ console.log(doctor)
       <h5>{description2}</h5>
       <div className='servicebtn2'>
           <button >
-          <Link to='appointmentbooking'>Book Apointment</Link>
+          <Link to='/services/appointmentbooking'>Book Apointment</Link>
             </button>
           </div> 
       </div>
