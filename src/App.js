@@ -19,25 +19,7 @@ import DoctorDetails from './components/DoctorDetails';
 function App() {
 
 
-  const data = [
-    {
-      title: "doctor1",
-      description: "This is the first doctor"
-    },
-    {
-      title: "doctor2",
-      description: "This is the second doctor"
-    },
-    {
-      title: "doctor3",
-      description: "This is the third doctor"
-    },
-    {
-      title: "doctor3",
-      description: "This is the fourth doctor"
-    },
-
-  ]
+ 
 
 
   return (
