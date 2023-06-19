@@ -103,6 +103,7 @@ nav ul a.active2:hover{
   margin: 6px 0;
   background-color: black;
 }
+
 .homeimage{
   width: 100%;
   height: 80vh;
@@ -140,6 +141,18 @@ nav ul a.active2:hover{
   width: 70%;
   margin-bottom: 8%;
 }
+#blockimg1{
+  width: 100%;
+  height: 10%;
+}
+#blockimg2{
+  width: 100%;
+  height: 10%;
+}
+#blockimg3{
+  width: 100%;
+  height: 10%;
+}
 .home2 img{
   max-width: 520px;
   float: left;
@@ -158,7 +171,7 @@ nav ul a.active2:hover{
   color: rgba(0, 0, 0, 0.625);
   line-height: 2rem;
 }
-button {
+.booking {
   margin-top: 3%;
   padding: 1.3em 3em;
   font-size: 12px;
@@ -174,30 +187,55 @@ button {
   cursor: pointer;
   outline: none;
 }
+.booking a{
+  color: #000;
+  text-decoration: none;
+}
 
-button:hover {
+.booking:hover {
   background-color: rgb(243, 156, 156);
   box-shadow: 0px 15px 20px rgb(239, 185, 185);
   color: #000000;
   transform: translateY(-7px);
 }
 
-button:active {
+.booking:active {
   transform: translateY(-1px);
+}
+.homecard1{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .card-group{
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 4px 158px;
+  text-align: left;
+  margin-bottom: 2rem;
+  
+}
+.card-div{
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 .card-group img{
-  width: 100%;
+  width: 80%;
 }
 .card1{
-  width: 20%;
-  margin-right: 10%;
-  margin-left: 5%;
+  width: 15%;
+  margin-right: 2%;
+  margin-left: 3%;
 }
 .card2{
-  width: 21%;
+  width: 16%;
 }
 .homeheader{
   align-items: center;
@@ -219,6 +257,13 @@ button:active {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.home3 .card{
+  margin-left: 13%;
+  background-color: none;
+}
+.home3 .card-body{
+  background-color: rgb(244, 227, 227);
+}
 .home4{
   top: 18%;
   margin-left: 8%;
@@ -239,7 +284,8 @@ button:active {
 .home5 .card{
   width: 20%;
   margin-left: 3%;
-  background-color: yellow;
+  background-color: rgb(246, 240, 240);
+
 }
 .home5 h2{
   align-items: center;
@@ -330,12 +376,11 @@ filter: brightness(0.5);
   margin-top: 2%;
   display: flex;
 }
-.col{
+/* .col{
   margin-left:13%;  
 margin-top: 5%;
-align-items: center;
-  justify-content: center;
-}
+
+} */
  .card{
   width: 80%;
 
@@ -419,7 +464,7 @@ align-items: center;
 .dropdown-menu{
   background-color: #f6e9e9;
   border: none;
-  width: 74%;
+  width: 83%;
   padding-left: 10px;
   border-radius: 20px;
   padding-right: 10px;
@@ -431,7 +476,6 @@ align-items: center;
 .section_padding{
   padding:30px ;
   background-color: rgba(243, 225, 225, 0.878);
-
 }
 .sb_footer{
   flex-direction: column;
@@ -650,7 +694,7 @@ align-items: center;
    
 }
 
-/* Hover effect for screens between 601px  1024*/
+/* Hover effect for screens between 601px and 1024*/
 @media  screen and (min-width: 601px) and (max-width: 1024px) {
   .servicetext{
     justify-content: center;
@@ -663,15 +707,76 @@ align-items: center;
     color: rgb(242, 92, 92);
     box-shadow: 0px 2px 1px rgb(0, 0, 0);
   }
+  .servicebody3 img{
+    width: 120%;
+    background-position: center;
+  }
 }
 
 
 /* Hover effect for screens smaller than 600px */
 @media  screen and (max-width: 600px) {
+  #home3col{
+    display: block;
+    max-width: 400px;
+  }
+  .home3 .card{
+    height: 260px;
+  }
+  .section_padding{
+    padding:8px ;
+    background-color: rgba(243, 225, 225, 0.878);
+  }
   .sb_footer-links {
     padding: 4px;
   }
+  .sb_footer-link_div h6{
+    font-size: 18px;
+    line-height: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .sb_footer-link_div h5{
+    font-size: 16px; 
+  }
+ 
+  .mambokubwa{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .servicetext{
+    margin-left: -20%;
+    top: 20%;
+  }
+  .servicebtn{
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+.booking{
+  margin-top: 1%;
+  padding: 1em 1em;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  color: #000;
+  background-color: #fbd7d7;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+nav ul a.active2{
+  font-size: 14px;
+  padding: 2.5px 8px;
 
+}
+.servicebody3 img{
+  width: 100%;
+  background-position: center;
+}
+.dropdown-menu p{
+font-size: 13px;
+}
  
   .home5wrapper{
     display: block;
@@ -679,7 +784,15 @@ align-items: center;
   .home5 .card{
     width: 100%;
     margin-top: 3%;
-    background-color: yellow;
+  }
+  .home5 .card-body{
+    background-color: rgb(246, 240, 240);
+  }
+  .home5 .card-body p{
+    font-size: 12px;
+  }
+  .home5 .card-body h6{
+    font-size: 15px;
   }
   .sb_footer-below{
     flex-direction: column;
@@ -763,7 +876,53 @@ align-items: center;
   .detailscontainer img{
     width: 130%;
   }
+  .home2{
+    /* display: flex; */
+    justify-content: center;
+    margin: 20px auto;
+    width: 70%;
+    margin-bottom: 8%;
+  }
+  .home2 img{
+    max-width: 300px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  .hometextbox{
+    color: rgb(0, 0, 0);
+  }
+  .hometextbox h2{
+    font-size: 12px;
+  }
+  .hometextbox p{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.625);
+    line-height: 1.5rem;
+  }
+  .hometext h1{
+    font-size: 12px;
+  }
+  .hometext{
+    color: rgb(255, 255, 255);
+    top: 20%;
+    position: absolute;
+    padding: 8%;
+    left: 23%;
+  }
+  .homespan{
+    color: #f6e9e9;
+  }
+ .contentcontainer a{
+  width: 300px;
+  font-size: 13px;
+  
+ }
 }
+
+
+
 
 
 

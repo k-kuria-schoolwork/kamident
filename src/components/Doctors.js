@@ -23,8 +23,8 @@ function Doctors() {
                 <img   class="card-img-top" src={doctor.image} alt="..."/>
                 <div class="card-body">
                   <h3 class="card-title">{doctor.title}</h3>
-                  <p class="card-text">{doctor.description}</p>
-                  <button className='servicebtn2'><Link to={`/doctors/${doctor.id}`}>View more</Link></button>
+                  <p class="card-text">{doctor.description1}</p>
+                  <button className='booking'><Link to={`/doctors/${doctor.id}`}>View more</Link></button>
                 </div>
               </div>
             </div>

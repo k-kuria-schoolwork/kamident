@@ -35,7 +35,7 @@ function Services() {
         </div> 
 
         <div className='servicebtn'>
-          <button >
+          <button className='booking'>
           <Link to='appointmentbooking'>Book Apointment</Link>
             </button>
           </div> 
