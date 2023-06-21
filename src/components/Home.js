@@ -16,14 +16,15 @@ function Home() {
   <div class="carousel-inner">
     <div class="carousel-item active">
     <div className='hometext'>
-            <h1 >DENTAL CARE FOR</h1>
-            <h2 >YOUR <span className='homespan'>NEW</span> </h2>
-            <h2><span className='homespan'>SMILE</span></h2>
+            <h1 >Welcome to</h1>
+            <h2 > <span className='homespan'>KAMIDENT</span> Dental</h2>
+            <h2>care for <span className='homespan' id='SPAN2'>YOUR SMILE</span></h2>
           </div>
-    <img src="https://media.istockphoto.com/id/1186140156/photo/girl-receiving-dental-care.jpg?s=612x612&w=0&k=20&c=Tf_24tfMh8Y4sDTUsmVq9hBtzXee2qjICBbpy0XGIqg=" class="d-block" id='blockimg1' alt="..."/>
+          <img  src='https://media.istockphoto.com/id/639967230/photo/toothy-smile-beauty-lips-beautiful-african-ethnicity-young-women.jpg?s=612x612&w=0&k=20&c=NsZVL45NBgUYElvkg9x9gEQwaM2n2XeHtMhjXQ3r0g4=' alt=''></img>
+
     </div>
     <div class="carousel-item">
-    <img src="https://www.webb-orthodontics.com/wp-content/uploads/2021/10/Difference-Between-a-Dentist-and-an-Orthodontist-in-Charlotte.jpg" class="d-block " id='blockimg2' alt="..."/>
+    <img src='../images/braces1.jpg' alt='contimage'></img>
     
     <div className='hometext'>
             <h1 >DENTAL CARE FOR</h1>
@@ -36,7 +37,7 @@ function Home() {
             <h2 >YOUR <span className='homespan'>NEW</span> </h2>
             <h2><span className='homespan'>SMILE</span></h2>
           </div>
-    <img src="https://images.everydayhealth.com/images/dental-health/cs-sensitive-teeth-dentist-1440x810.jpg?sfvrsn=9186d2ea_0" class="d-block" id='blockimg3' alt="..."/>
+          <img src='../images/teeth16.jpg' alt='contimage'></img>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -62,10 +63,12 @@ function Home() {
         </div>
      
         <div className='home2'>
-            <img src='https://sandimassedation.com/wp-content/uploads/cosmetic-dentist-2003.jpg' alt='home2'></img>
+        <img src='../images/blackdoctor.jpg' alt='contimage'></img>
             <div className='hometextbox'>
             <h2>Why Choose us?</h2>
-            <p>We will instruct and teach the exceptionally imperative estimation of oral wellbeing and what every single patient can do to keep his or her teeth solid during their lifetime. We are committed to offering our patients great dentistry in a minding and delicate way.</p>
+            <p>Kamident Dental is one of the best dental clinic in Nairobi Town with experiences that range over 8 years.</p>
+            <p>We invite you to experience exceptional dental services at our practice, where your oral health and satisfaction are our utmost priorities.</p>
+
             </div>          
 
         </div>
@@ -78,37 +81,40 @@ function Home() {
             </div>
          
 
-         <div class="row .row-cols-3 row-cols-md-2 g-4" id='home3col'>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
- <img src="https://media.istockphoto.com/id/1186140156/photo/girl-receiving-dental-care.jpg?s=612x612&w=0&k=20&c=Tf_24tfMh8Y4sDTUsmVq9hBtzXee2qjICBbpy0XGIqg=" class="card-img-top" alt="..."/> 
-<div class="card-body">
-        <h5 class="card-title">Braces and teeth alignment</h5>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-    <img src="https://media.istockphoto.com/id/1186140156/photo/girl-receiving-dental-care.jpg?s=612x612&w=0&k=20&c=Tf_24tfMh8Y4sDTUsmVq9hBtzXee2qjICBbpy0XGIqg=" class="card-img-top" alt="..."/> 
+    <img src='../images/dentalunit.jpg' alt='contimage'></img>
       <div class="card-body">
-        <h5 class="card-title">Filling to restore damaged teeth</h5>
+        <h5 class="card-title">Modern Equipments</h5>
+        <p class="card-text">We have invested in cutting edge dental technology and modern facilities to ensure you recieve the highest standard of dental care</p>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="col">
+    <div class="card">
+    <img id='teeth6' src='../images/teeth6.jpg' alt='contimage'></img>
+      <div class="card-body">
+        <h5 class="card-title">Comprehensive Services</h5>
+        <p class="card-text">We offer a wide range of dental services ,catering all aspects of oral care,a one-stop solution to your needs.</p>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card">
-    <img src="https://media.istockphoto.com/id/1186140156/photo/girl-receiving-dental-care.jpg?s=612x612&w=0&k=20&c=Tf_24tfMh8Y4sDTUsmVq9hBtzXee2qjICBbpy0XGIqg=" class="card-img-top" alt="..."/> 
+    <img id='teeth13' src='../images/teeth13.jpg' alt='contimage'></img>
       <div class="card-body">
-        <h5 class="card-title">Teeth whitening for sparkly teeth</h5>
+        <h5 class="card-title">Expertise and proffesionalism</h5>
+        <p class="card-text">our team consists of highly skilled and experienced dental proffesionalism  </p>
       </div>
     </div>
   </div>
-
 </div>
 </div>
 
          <div className='home2'>
-         <img className='home4img' src='https://images.everydayhealth.com/images/dental-health/cs-sensitive-teeth-dentist-1440x810.jpg?sfvrsn=9186d2ea_0' alt=''></img>
+         <img className='home4img' src='https://www.greenviewhospital.co.ke/wp-content/uploads/2021/06/african-male-patient-getting-dental-treatment-dental-clinic_105818-130.jpg' alt=''></img>
             <div className='hometextbox'>
             <h2>We Care For Your Dental Health</h2>
               <p className='home2p'>We will work with you to develop individualised care plans, including management of chronic diseases. If we cannot assist, we can provide referrals or advice about the type of practitioner you require. We treat all enquiries sensitively and in the strictest confidence.
@@ -153,10 +159,6 @@ function Home() {
           </div>
         </div>
         </div>
-
-
-
-
 
       </div>
 

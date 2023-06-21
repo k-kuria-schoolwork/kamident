@@ -7,7 +7,7 @@ function Doctors() {
     <div>
       <div className='bigdaddycont'>
       <div className='servicewrapper'>
-        <img src='https://media.defense.gov/2019/Aug/22/2002174235/1200/1200/0/190819-F-VX133-333.JPG' alt='serviceimg'></img>
+      <img src='../images/teeth13.jpg' alt='contimage'></img>
      <div className='servicetext'>
         <h2>Doctors</h2>
      </div>

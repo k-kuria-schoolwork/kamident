@@ -42,8 +42,8 @@ const sendEmail = (e) => {
 
         </div>
       </div>
-      <div className='column image'>
-              <img src='https://blackhealthmatters.com/wp-content/uploads/2023/05/Addressing-Racial-Disparities-in-Dental-Care-for-African-Americans.jpg' alt='columnimage'></img>
+      <div >
+              <img className='column image' id='image101' src='https://avenuedentalarts.com/wp-content/uploads/2018/02/West_Hartford_CT_Dentist_Dental_Appointment_on_Calendar.jpeg' alt='columnimage'></img>
          </div>
     </div>
     

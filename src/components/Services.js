@@ -42,7 +42,7 @@ function Services() {
 
           <div className='servicebody2'>
             <div className='home2'>
-            <img src='https://vimakdentalcentre.co.ke/uploads/service_cover_images/Pido.jpg' alt='home2'></img>
+            <img src='../images/dentalcare.jpg' alt='contimage'></img>
             <div className='hometextbox'>
             <h2>The Best Technique Immediate & Effecient Result</h2>
             <p>We offer a total scope of dental and cleanliness medications, perfomed by talented and energetic experts in our medical procedure.Our motivation is to separate ourselves as a medical procedure that gives dentistry of the extremely most austanding quality that upgrades our patient's lives.</p>
