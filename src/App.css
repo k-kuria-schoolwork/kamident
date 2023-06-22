@@ -320,6 +320,16 @@ font-size: 15px;
   font-weight: 600;
   margin-bottom: 1%;
 }
+.servicebody4{
+  display: flex;
+margin-left: 12%;
+margin-top: 2%;
+}
+#image101{
+  width: 60%;
+  margin-top: 1%;
+  margin-left: 15%;
+}
 
 .hometextboxy p{
   font-size: 20px;
@@ -748,6 +758,13 @@ margin-top: 5%;
   .detailsdoc{
     margin-right: 20%;
   }
+  .servicebody4{
+    display: block;  
+  }
+  #image101{
+    width: 60%;
+    margin-left: 1px;
+  }
 }
 
 
@@ -757,7 +774,13 @@ margin-top: 5%;
   margin-left: 10%;
   margin-top: 8%;
   }
- 
+  .servicebody4{
+    display: block;  
+  }
+  #image101{
+    width: 30%;
+    margin-left: 1px;
+  }
   .logo h2{
     margin-left: 5%;
   }

@@ -1,5 +1,7 @@
 import React,{useRef} from 'react'
 import emailjs from '@emailjs/browser';
+import alertify from 'alertifyjs';
+
 
 function BookAppointment() {
 const form = useRef()
@@ -23,13 +25,9 @@ const sendEmail = (e) => {
 
   return (
     <div className='bigdaddycont'>
-    <div className='servicebody3'>
-      <div className='column content'>
+    <div className='servicebody4'>
         <div className='contentcontainer'>
-
-        <section>
         <h5>Book with us today</h5>
-
           <form ref={form} onSubmit ={sendEmail} id="consultation-form" class="feed-form" action="#">
             <input name="user_name" required="" placeholder="Name" type="text"/>
             <input name="user_phone" required="" placeholder="Phone number"/>
@@ -38,12 +36,9 @@ const sendEmail = (e) => {
             <textarea name='message' placeholder="Your message"></textarea>
             <button type='submit' value="send" class="button_submit">Book Appointment</button>
           </form>
-        </section>
-
         </div>
-      </div>
-      <div >
-              <img className='column image' id='image101' src='https://avenuedentalarts.com/wp-content/uploads/2018/02/West_Hartford_CT_Dentist_Dental_Appointment_on_Calendar.jpeg' alt='columnimage'></img>
+      <div>
+              <img  id='image101' src='https://avenuedentalarts.com/wp-content/uploads/2018/02/West_Hartford_CT_Dentist_Dental_Appointment_on_Calendar.jpeg' alt='columnimage'></img>
          </div>
     </div>
     

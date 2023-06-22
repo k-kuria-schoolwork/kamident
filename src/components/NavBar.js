@@ -35,7 +35,7 @@ function NavBar() {
 
         <div className='header2'>
             <div className='contact'>
-                <h5>Phone no:0706262436</h5>
+                <h5>Phone no:+254-706-262-436</h5>
                 <p>Githurai opp Equity Bank</p>
             </div>
             <div className='contact'>
