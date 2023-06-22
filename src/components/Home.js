@@ -18,13 +18,13 @@ function Home() {
     <div className='hometext'>
             <h1 >Welcome to</h1>
             <h2 > <span className='homespan'>KAMIDENT</span> Dental</h2>
-            <h2>care for <span className='homespan' id='SPAN2'>YOUR SMILE</span></h2>
+            <h2>we care for <span className='homespan' id='SPAN2'>YOUR SMILE</span></h2>
           </div>
-          <img  src='https://media.istockphoto.com/id/639967230/photo/toothy-smile-beauty-lips-beautiful-african-ethnicity-young-women.jpg?s=612x612&w=0&k=20&c=NsZVL45NBgUYElvkg9x9gEQwaM2n2XeHtMhjXQ3r0g4=' alt=''></img>
+          <img id='textimage'  src='https://media.istockphoto.com/id/639967230/photo/toothy-smile-beauty-lips-beautiful-african-ethnicity-young-women.jpg?s=612x612&w=0&k=20&c=NsZVL45NBgUYElvkg9x9gEQwaM2n2XeHtMhjXQ3r0g4=' alt=''></img>
 
     </div>
     <div class="carousel-item">
-    <img src='../images/braces1.jpg' alt='contimage'></img>
+    <img id='textimage' src='../images/john.jpg' alt='contimage'></img>
     
     <div className='hometext'>
             <h1 >DENTAL CARE FOR</h1>
@@ -33,11 +33,11 @@ function Home() {
           </div></div>
     <div class="carousel-item">
     <div className='hometext'>
-            <h1 >DENTAL CARE FOR</h1>
-            <h2 >YOUR <span className='homespan'>NEW</span> </h2>
-            <h2><span className='homespan'>SMILE</span></h2>
+            <h1 >DENTAL CARE </h1>
+            <h2 >  <span className='homespan'>for a Brighter</span> </h2>
+            <h2><span className='homespan'>Future</span></h2>
           </div>
-          <img src='../images/teeth16.jpg' alt='contimage'></img>
+          <img id='textimage' src='../images/teeth16.jpg' alt='contimage'></img>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -81,36 +81,40 @@ function Home() {
             </div>
          
 
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-    <img src='../images/dentalunit.jpg' alt='contimage'></img>
-      <div class="card-body">
-        <h5 class="card-title">Modern Equipments</h5>
-        <p class="card-text">We have invested in cutting edge dental technology and modern facilities to ensure you recieve the highest standard of dental care</p>
+            <div className='home5' >
+        <div className='home5wrapper'id='tanotena' >
+        <div class="card"id='home5b' >
+        <img src='https://www.greenviewhospital.co.ke/wp-content/uploads/2021/06/african-male-patient-getting-dental-treatment-dental-clinic_105818-130.jpg' alt=''></img>
+          <div class="card-body">
+            <h5 class="card-title">Halima </h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">project manager</h6>
+            <p class="card-text">My first time in this clinic and the services were exemplary ,i highly recommend anyone in search of a dental clinic.. </p>
+            
+          </div>
+        </div>
+
+        <div class="card" id='home5b'>
+        <img  src='https://www.greenviewhospital.co.ke/wp-content/uploads/2021/06/african-male-patient-getting-dental-treatment-dental-clinic_105818-130.jpg' alt=''></img>
+          <div class="card-body">
+            <h5 class="card-title">kevin Gitonga</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Enterprenuer</h6>
+            <p class="card-text">The receptionist was so welcoming,the services were professional and the prices were fair.How can you not love it there. </p>
+          </div>
+        </div>
+        <div class="card" id='home5b'>
+        <img src='https://www.greenviewhospital.co.ke/wp-content/uploads/2021/06/african-male-patient-getting-dental-treatment-dental-clinic_105818-130.jpg' alt=''></img>
+
+          <div class="card-body">
+            <h5 class="card-title">Bunny kanosh</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Fashion designer</h6>
+            <p class="card-text">Shout out to my bwoy ya diig.The doctor gold platted me some dope shit.Thats wozzap</p>
+           
+          </div>
+        </div>
+    
+        </div>
+
       </div>
-    </div>
-  </div>
- 
-  <div class="col">
-    <div class="card">
-    <img id='teeth6' src='../images/teeth6.jpg' alt='contimage'></img>
-      <div class="card-body">
-        <h5 class="card-title">Comprehensive Services</h5>
-        <p class="card-text">We offer a wide range of dental services ,catering all aspects of oral care,a one-stop solution to your needs.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-    <img id='teeth13' src='../images/teeth13.jpg' alt='contimage'></img>
-      <div class="card-body">
-        <h5 class="card-title">Expertise and proffesionalism</h5>
-        <p class="card-text">our team consists of highly skilled and experienced dental proffesionalism  </p>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
          <div className='home2'>

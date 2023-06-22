@@ -42,7 +42,7 @@ function Services() {
 
           <div className='servicebody2'>
             <div className='home2'>
-            <img src='../images/dentalcare.jpg' alt='contimage'></img>
+            <img src='https://lindennjdentist.com/static/fa76ee9df70c92381d384f33ee17e97b/01203/saturday-dentist1.jpg' alt='columnimage'></img>
             <div className='hometextbox'>
             <h2>The Best Technique Immediate & Effecient Result</h2>
             <p>We offer a total scope of dental and cleanliness medications, perfomed by talented and energetic experts in our medical procedure.Our motivation is to separate ourselves as a medical procedure that gives dentistry of the extremely most austanding quality that upgrades our patient's lives.</p>
