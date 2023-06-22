@@ -847,7 +847,7 @@ margin-left: 3%;
   background-position: center;
 }
 .dropdown-menu p{
-font-size: 130px;
+font-size: 13px;
 }
 .feed-form input{
   margin-bottom: 10px;
@@ -938,7 +938,7 @@ font-size: 130px;
     width: 120%;
   }
   .servicewrapper img{
-    width: 200%;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
