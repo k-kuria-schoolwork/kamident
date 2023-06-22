@@ -9,6 +9,7 @@ function Doctors() {
       <div className='servicewrapper'>
       <img src='https://dental.uonbi.ac.ke/sites/dental.uonbi.ac.ke/files/styles/mt_slideshow/public/2022-11/Gataka%20Medical%20Camp7_0.jpg?itok=13-YL7l_' alt='columnimage'></img>
      <div className='servicetext'>
+     <h5>OUR</h5>
         <h2>Doctors</h2>
      </div>
       </div>

@@ -84,31 +84,26 @@ function Home() {
             <div className='home5' >
         <div className='home5wrapper'id='tanotena' >
         <div class="card"id='home5b' >
-        <img src='https://www.greenviewhospital.co.ke/wp-content/uploads/2021/06/african-male-patient-getting-dental-treatment-dental-clinic_105818-130.jpg' alt=''></img>
+        <img id='textimage' src='../images/dentalunit.jpg' alt='contimage'></img>
           <div class="card-body">
-            <h5 class="card-title">Halima </h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">project manager</h6>
-            <p class="card-text">My first time in this clinic and the services were exemplary ,i highly recommend anyone in search of a dental clinic.. </p>
-            
+            <h5 class="card-title">State-of-the-art Facility </h5>
+            <p class="card-text">We have invested in cutting-edge dental technology and modern facilies to ensure that you recieve the highest standard of care. </p>
           </div>
         </div>
 
         <div class="card" id='home5b'>
-        <img  src='https://www.greenviewhospital.co.ke/wp-content/uploads/2021/06/african-male-patient-getting-dental-treatment-dental-clinic_105818-130.jpg' alt=''></img>
-          <div class="card-body">
-            <h5 class="card-title">kevin Gitonga</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Enterprenuer</h6>
-            <p class="card-text">The receptionist was so welcoming,the services were professional and the prices were fair.How can you not love it there. </p>
+        <img  src='https://dentists-for-africa.org/wp-content/uploads/dentalslider_7.jpg' alt=''></img>
+        <div class="card-body">
+            <h5 class="card-title">Expertise and Professionalism</h5>
+            <p class="card-text">Our team consists of highly skilled and experienced dental professionals who are dedicated to delivering top-quality care. </p>
           </div>
         </div>
         <div class="card" id='home5b'>
-        <img src='https://www.greenviewhospital.co.ke/wp-content/uploads/2021/06/african-male-patient-getting-dental-treatment-dental-clinic_105818-130.jpg' alt=''></img>
+        <img id='textimage' src='../images/teeth8.jpg' alt='contimage'></img>
 
-          <div class="card-body">
-            <h5 class="card-title">Bunny kanosh</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Fashion designer</h6>
-            <p class="card-text">Shout out to my bwoy ya diig.The doctor gold platted me some dope shit.Thats wozzap</p>
-           
+        <div class="card-body">
+            <h5 class="card-title">Comprehensive Services </h5>
+            <p class="card-text">We offer a wide range of dental services, catering to all aspects of oral care. Whether you need routine check-ups and cleanings, </p>
           </div>
         </div>
     

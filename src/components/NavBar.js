@@ -32,6 +32,18 @@ function NavBar() {
             </label>
             
         </header>
+
+        <div className='header2'>
+            <div className='contact'>
+                <h5>Phone no:0706262436</h5>
+                <p>Githurai opp Equity Bank</p>
+            </div>
+            <div className='contact'>
+                <h5>Opening Hours</h5>
+                <p>Mon-Fri 8AM-3AM Sat 8AM-3PM</p>
+            </div>
+            
+        </div>
     </div>
   )
 }

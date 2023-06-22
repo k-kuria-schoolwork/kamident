@@ -10,8 +10,8 @@ const sendEmail = (e) => {
   emailjs.sendForm('service_fx02hl6', 'template_rs0rjis', form.current, 'QHjfvohYmK-wX_pdK')
   .then((result) => {
       console.log(result.text);
-      alert("Appointment booked successfully!")
-  }, (error) => {
+      alertify.alert('Bookings', 'Appointment Booked Successfully!', function(){ alertify.success('Ok'); });
+    }, (error) => {
       console.log(error.text);
       alert("Oops!Something went wrong!")
 
