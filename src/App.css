@@ -963,8 +963,8 @@ font-size: 13px;
     margin-left: 37%;
   }
   .details{
-    width: 140%;
     margin-left: 10%;
+    gap: 3rem;
   }
   .detailsdiv h5{
     font-size: 16px;
