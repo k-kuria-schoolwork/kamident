@@ -18,10 +18,6 @@ import DoctorDetails from './components/DoctorDetails';
 
 function App() {
 
-
- 
-
-
   return (
     <div className="App">
       <NavBar />

@@ -1,6 +1,6 @@
 import React,{useRef} from 'react'
 import emailjs from '@emailjs/browser';
-import alertify from 'alertifyjs';
+import alertify from 'alertifyjs' ;
 
 
 function BookAppointment() {
