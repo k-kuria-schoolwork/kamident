@@ -33,10 +33,8 @@ function App() {
         </Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route   path='/doctors' element={<Doctors />}>
-        </Route>
+        <Route   path='/doctors' element={<Doctors />}></Route>
         <Route  path='/doctors/:doctorsId' element={<DoctorDetails />}></Route>
-
         <Route path='services/appointmentbooking' element={<BookAppointment />}></Route>
 
       </Routes>
