@@ -288,6 +288,14 @@ font-size: 15px;
   background-color: none;
   max-width: 40%;
 }
+.carousel-item {
+  height: 730px; /* Adjust the value as needed */
+}
+
+.carousel-item img {
+  height: 100%; /* This will make the image fill the height of the carousel item */
+  width: auto; /* To maintain the aspect ratio */
+}
 .home3 .card-body{
   background-color: rgb(244, 227, 227);
 }
@@ -312,7 +320,6 @@ font-size: 15px;
   width: 20%;
   margin-left: 70px;
   background-color: rgb(246, 240, 240);
-
 }
 .home5 h2{
   align-items: center;
