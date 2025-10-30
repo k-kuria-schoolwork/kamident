@@ -3,7 +3,7 @@ import React from 'react'
 function Blog() {
   return (
     <div>
-      happp
+      <h2>Our Blogs</h2>
     </div>
   )
 }

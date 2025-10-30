@@ -15,6 +15,7 @@ import DentalCrown from './components/DentalCrown';
 import Footer from './components/Footer';
 import BookAppointment from './components/BookAppointment';
 import DoctorDetails from './components/DoctorDetails';
+import AddBlog from './components/AddBlog';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
             <Route path='services/dentalcrown' element={<DentalCrown />}></Route>
         </Route>
         <Route path='/blog' element={<Blog />}></Route>
+        <Route path='/addblog' element={<AddBlog />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route   path='/doctors' element={<Doctors />}></Route>
         <Route  path='/doctors/:doctorsId' element={<DoctorDetails />}></Route>

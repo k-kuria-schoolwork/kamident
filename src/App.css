@@ -293,7 +293,7 @@ font-size: 15px;
 }
 
 .carousel-item img {
-  height: 100%; /* This will make the image fill the height of the carousel item */
+  height: 80%; /* This will make the image fill the height of the carousel item */
   width: auto; /* To maintain the aspect ratio */
 }
 .home3 .card-body{
