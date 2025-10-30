@@ -18,6 +18,8 @@ function NavBar() {
                         <Link className='active' to='/'>Home</Link>
                    
                         <Link to='/services'>Services</Link>
+
+                          <Link to='/blog'>Blogs</Link>
                   
                         <Link to='/doctors'>Doctors</Link>
                  
